@@ -1,0 +1,98 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.mainpart{
+  width: 1170px;
+  padding: 10px;
+}
+.tablehead p{
+  width: 55px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  color: red;
+}
+#gap{
+  margin-left: 5px;
+}
+.tableside{
+  width: 50px;
+  display: inline-block;
+  color: red;
+  /*vertical-align: top;*/
+}
+.tableside p{
+  padding: 17px 20px;
+  position:relative;
+  bottom: 13px;
+}
+.tablecontent{
+  display: inline-block;
+}
+.element{
+  width: 50px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 1px 0px;
+  display: inline-block;
+}
+.name{
+  font-size: 20px;
+  color: darkblue;
+}
+.num, .mass{
+  font-size: 10px;
+}
+
+.column{
+  display: inline-block;
+  width: 50px;
+  margin: 0px;
+}
+#transition_element{
+  width: 556px;
+  display: inline-block;
+  margin-left: 10px;
+}
+#nonmetal_element{
+  width: 335px;
+  display: inline-block;
+}
+#IIIA, #IVA, #VA, #VIA, #VIIA, #IIXA{
+  width: 51px;
+  /*margin: 1px 0px;*/
+  display: inline-block;
+}
+#bottomtable{
+
+}
+#Laline, #Acline{
+  padding-left: 30px;
+}
+#Laline span, #Acline span{
+  position: relative;
+  bottom: 10px;
+  color: red;
+}
+.Latable{
+  display: inline-block;
+  margin-left: 50px;
+}
+.Actable{
+  display: inline-block;
+  margin-left: 43px;
+}
+.blue{
+  background: lightblue;
+}
+.pink{
+  background-color: pink;
+}
+.yellow{
+  background-color: lightyellow;
+}
+.green{
+  background-color: green;
+}
