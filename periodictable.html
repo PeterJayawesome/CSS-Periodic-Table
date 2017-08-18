@@ -1,647 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Periodic Table</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="periodictable.css">
   </head>
   <body>
-    <div class="mainpart">
-      <div class="tablehead">
-        <p>Group Period</p>
-        <p>1</p><p>2</p><p id="gap">3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p>
-        <p>10</p><p>11</p><p>12</p><p>13</p><p>14</p><p>15</p><p>16</p><p>17</p><p>18</p>
-      </div>
-      <div class="tableside">
-        <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p>
-      </div>
-      <div class="tablecontent">
-        <div class="column">
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="blue element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-      </div>
+    <div class="maintable">
+      <ul id="table_side">
+        <li class="red" id="groupperiod">Group Period</li>
+        <li class="red">1</li>
+        <li class="red">2</li>
+        <li class="red">3</li>
+        <li class="red">4</li>
+        <li class="red">5</li>
+        <li class="red">6</li>
+        <li class="red">7</li>
+      </ul>
+      <ul id="IA">
+        <li class="red">1</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red beryllium">2</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+        <li class="blue element">1<p>H</p>1.008</li>
+      </ul>
+      <ul id="IIIB">
+        <li class="red transition">3</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">4</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">5</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">6</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">7</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">8</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">9</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">10</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">11</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red transition">12</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+        <li class="pink element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red carbon">13</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red carbon">14</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red carbon">15</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red carbon">16</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red carbon">17</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+      </ul>
+      <ul>
+        <li class="red">18</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+        <li class="yellow element">1<p>H</p>1.008</li>
+      </ul>
     </div>
-    <div id="transition_element">
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-      <div class="pink element">
-        <p class="num">1</p>
-        <p class="name">H</p>
-        <p class="mass">1.008</p>
-      </div>
-    </div>
-    <div id="nonmetal_element">
-      <div id="IIIA">
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-      </div>
-      <div id="IVA">
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-      </div>
-      <div id="VA">
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-      </div>
-      <div id="VIA">
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-      </div>
-      <div id="VIIA">
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-      </div>
-      <div id="IIXA">
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-        <div class="yellow element">
-          <p class="num">1</p>
-          <p class="name">H</p>
-          <p class="mass">1.008</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div id="bottomtable">
-      <div id="Laline">
-        <span>*Lanthanoids</span>
-        <div class="Latable">
-          <span>*</span>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-
-        </div>
-      </div>
-      <div id="Acline">
-        <span>**Actinnoids</span>
-        <div class="Actable">
-          <span>**</span>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-          <div class="green element">
-            <p class="num">1</p>
-            <p class="name">H</p>
-            <p class="mass">1.008</p>
-          </div>
-        </div>
-      </div>
+    <div class="bottomtable">
+      <ul id="lanthanoids">
+        <li class="red label">*Lanthanoids</li>
+        <li class="red star">*</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+      </ul>
+      <ul id="actinoids">
+        <li class="red label">**Actinoids</li>
+        <li class="red star">**</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+        <li class="green element">1<p>H</p>1.008</li>
+      </ul>
     </div>
   </body>
 </html>

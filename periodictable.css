@@ -1,0 +1,86 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  padding: 0px auto;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+li{
+  height: 50px;
+  width: 50px;
+  margin: 2px 0px;
+  text-align: center;
+}
+#table_side{
+  vertical-align: bottom;
+  position: relative;
+  top: 15px;
+}
+#groupperiod{
+  position: relative;
+  bottom: 15px;
+}
+#table_side li{
+  padding: 1px;
+}
+.element{
+  border: 1px solid black;
+  font-size: 11px;
+}
+.beryllium{
+  position: relative;
+  bottom: 54px;
+}
+.transition{
+  position: relative;
+  bottom: 161px;
+}
+.carbon{
+  position: relative;
+  bottom: 54px;
+}
+#IIIB{
+  margin-left: 10px;
+}
+.element p{
+  font-size: 20px;
+}
+#lanthanoids{
+  margin-top: 20px;
+}
+#lanthanoids li, #actinoids li{
+  display: inline-block;
+  vertical-align: top;
+}
+.label{
+  margin-left: 50px;
+  width: 80px;
+  position: relative;
+  top: 20px;
+}
+.star{
+  text-align: right;
+  position: relative;
+  top: 20px;
+  width: 40px;
+}
+.red{
+  color: red;
+}
+.blue{
+  background: lightblue;
+}
+.pink{
+  background: pink;
+}
+.yellow{
+  background: lightyellow;
+}
+.green{
+  background: lightgreen;
+}
